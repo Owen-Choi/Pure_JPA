@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105b46e3-d1f5-4189-b62a-47a266b137e7" name="Default Changelist" comment="Jpa 실습 환경 구축">
+    <list default="true" id="105b46e3-d1f5-4189-b62a-47a266b137e7" name="Default Changelist" comment="Jpa 실습 환경 리얼 구축">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1666572990512" duration="267000" />
       <workItem from="1666576755852" duration="783000" />
       <workItem from="1666620774904" duration="226000" />
-      <workItem from="1666621056533" duration="292000" />
+      <workItem from="1666621056533" duration="4414000" />
     </task>
     <task id="LOCAL-00001" summary="Jpa 실습 환경 구축">
       <created>1666620958899</created>
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666620958899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Jpa 실습 환경 리얼 구축">
+      <created>1666621649693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666621649693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jpa 실습 환경 구축" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jpa 실습 환경 구축" />
+    <MESSAGE value="Jpa 실습 환경 리얼 구축" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jpa 실습 환경 리얼 구축" />
   </component>
 </project>
