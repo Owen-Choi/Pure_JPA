@@ -28,15 +28,15 @@ public class JpaMain {
 //                    .getResultList();
 //            // JPQL을 활용하면 위처럼 페이징도 아주 간단하게 할 수 있다!
 
-            // 비영속
-            Member member = new Member();
-            member.setId(100L);
-            member.setName("James");
+//            // 비영속
+//            Member member = new Member();
+//            member.setId(100L);
+//            member.setName("James");
 
             // 영속
-            System.out.println("=== Before ===");
-            em.persist(member);
-            System.out.println("=== After ===");
+//            System.out.println("=== Before ===");
+//            em.persist(member);
+//            System.out.println("=== After ===");
 
             tx.commit();
         } catch (Exception e) {
