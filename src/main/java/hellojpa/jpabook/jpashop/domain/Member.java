@@ -16,6 +16,9 @@ public class Member {
 //    @Column(name = "TEAM_ID")
 //    private Long teamId;
 
+    @OneToOne
+    @JoinColumn(name = "LOCKER_ID")
+    private Locker locker;
 
     @ManyToOne
     // Member가 N이고 Team이 1이다.

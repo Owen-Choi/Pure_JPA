@@ -11,14 +11,14 @@ public class Order {
     @Column(name = "order_Id")
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "customer_Id")
     private Customer customer;
 
     @Embedded
     private OrderInfo orderInfo;
 
-    @OneToMany(mappedBy = "order")
+    @OneToMany(mappedBy = "order", fetch = FetchType.LAZY)
     private List<OrderCafeteria> orderCafeteria = new ArrayList<>();
 
     // Order와 DeliveryOrder는 단방향으로 매핑하겠음

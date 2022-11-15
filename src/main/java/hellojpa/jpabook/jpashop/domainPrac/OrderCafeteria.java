@@ -9,11 +9,11 @@ public class OrderCafeteria {
     @Column(name = "order_cafeteria_Id")
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "order_Id")
     private Order order;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cafeteria_Id")
     private Cafeteria cafeteria;
 }

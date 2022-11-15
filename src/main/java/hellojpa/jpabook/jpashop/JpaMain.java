@@ -2,6 +2,7 @@ package hellojpa.jpabook.jpashop;
 
 import hellojpa.jpabook.jpashop.domain.Member;
 import hellojpa.jpabook.jpashop.domain.Team;
+import hellojpa.jpabook.jpashop.domainPrac.Student;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -16,18 +17,20 @@ public class JpaMain {
         tx.begin();
         try {
 
-            Team team = new Team();
-            team.setName("TeamA");
-            em.persist(team);
+//            Team team = new Team();
+//            team.setName("TeamA");
+//            em.persist(team);
+//
+//            Member member = new Member();
+//            member.setUsername("member1");
+//            member.setTeam(team);
+//            em.persist(member);
+//
+//            Member findMember = em.find(Member.class, member.getId());
+//            Team findTeam = findMember.getTeam();
 
-            Member member = new Member();
-            member.setUsername("member1");
-            member.setTeam(team);
-            em.persist(member);
-
-            Member findMember = em.find(Member.class, member.getId());
-
-            Team findTeam = findMember.getTeam();
+            Student student = new Student();
+            em.persist(student);
 
             tx.commit();
         } catch (Exception e) {

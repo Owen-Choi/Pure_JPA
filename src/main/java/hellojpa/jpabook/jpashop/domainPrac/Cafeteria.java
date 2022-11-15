@@ -11,7 +11,7 @@ public class Cafeteria {
     @Column(name = "cafeteria_Id")
     private Long id;
 
-    @OneToMany(mappedBy = "cafeteria")
+    @OneToMany(mappedBy = "cafeteria", fetch = FetchType.LAZY)
     private List<OrderCafeteria> orderCafeteria = new ArrayList<>();
 
     @Column(name = "call_number")

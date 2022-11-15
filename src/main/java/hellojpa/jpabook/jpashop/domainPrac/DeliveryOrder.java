@@ -9,11 +9,11 @@ public class DeliveryOrder {
     @Column(name = "delivery_order_Id")
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "deliver_Id")
     private Deliver deliver;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "order_Id")
     private Order order;
 

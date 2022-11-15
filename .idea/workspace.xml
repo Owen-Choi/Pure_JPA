@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105b46e3-d1f5-4189-b62a-47a266b137e7" name="Default Changelist" comment="JPQL, Persistence Context">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/JpaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Team.java" afterDir="false" />
+    <list default="true" id="105b46e3-d1f5-4189-b62a-47a266b137e7" name="Default Changelist" comment="도메인 설계">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Locker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domain/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Cafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Cafeteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Deliver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Deliver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/DeliveryOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/DeliveryOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/OrderCafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/jpabook/jpashop/domainPrac/OrderCafeteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -52,10 +57,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Quick_Game1-master" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager" selected="Application.JpaMain">
     <configuration name="JpaMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -84,17 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JpaMain" />
@@ -118,7 +112,20 @@
       <workItem from="1666621056533" duration="4962000" />
       <workItem from="1666704474897" duration="3388000" />
       <workItem from="1666758530642" duration="1831000" />
-      <workItem from="1666778245890" duration="6517000" />
+      <workItem from="1666778245890" duration="6624000" />
+      <workItem from="1666802158714" duration="1948000" />
+      <workItem from="1666835027796" duration="1131000" />
+      <workItem from="1666860900024" duration="701000" />
+      <workItem from="1666884678014" duration="2023000" />
+      <workItem from="1666929010645" duration="1967000" />
+      <workItem from="1666965097667" duration="1526000" />
+      <workItem from="1667805192786" duration="2727000" />
+      <workItem from="1667832711817" duration="18000" />
+      <workItem from="1667979518339" duration="5838000" />
+      <workItem from="1668047346169" duration="1652000" />
+      <workItem from="1668059854444" duration="201000" />
+      <workItem from="1668319661411" duration="2000" />
+      <workItem from="1668476139078" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Jpa 실습 환경 구축">
       <created>1666620958899</created>
@@ -141,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666627329097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="단방향 매핑">
+      <created>1666792625298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792625298</updated>
+    </task>
+    <task id="LOCAL-00005" summary="도메인 설계">
+      <created>1667986919939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667986919939</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +184,8 @@
     <MESSAGE value="Jpa 실습 환경 구축" />
     <MESSAGE value="Jpa 실습 환경 리얼 구축" />
     <MESSAGE value="JPQL, Persistence Context" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPQL, Persistence Context" />
+    <MESSAGE value="단방향 매핑" />
+    <MESSAGE value="도메인 설계" />
+    <option name="LAST_COMMIT_MESSAGE" value="도메인 설계" />
   </component>
 </project>
